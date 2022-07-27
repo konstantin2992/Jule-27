@@ -1,0 +1,135 @@
+body{
+    min-height: 100vh !important;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: pink;
+}
+.container{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 666px;
+    height: 666px;
+    background-image: url(/img/imgonline-com-ua-Resize-TBJxvjL3KhG0ls1e.jpg);
+}
+.block{
+    height: 487px;
+    width: 487px;
+    margin: auto;
+    background-color: #E1E1E1;
+    box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.15);
+}
+.text p{
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+}
+.text{
+    margin-left: 120px;
+    margin-top: 60px;
+    display: inline-block;
+}
+.text-two{
+    display: flex;
+    font-size: 10px;
+    margin-left: 155px;
+    margin-top: 10px;
+}
+.text-two p, a{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    color: #fff;
+}
+.text-two a{
+    margin-left: 10px;
+    color: white !important;
+    text-decoration:underline !important;
+}
+.input input{
+    height: 60px;
+    width: 327px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 43px;
+    
+
+}
+.input-two,.input-thre{
+    align-items: center;
+    display: flex;
+}
+.img{
+    background-color: #E65848;
+    height: 66px;
+    width: 66px;
+
+}
+img{
+    padding-left: 19px;
+    padding-top: 10px;
+}
+.input-thre{
+    margin-top: 20px
+}
+.but{
+    background-color: #E65848;
+    height: 60px;
+    width: 183px;
+    border: none;
+}
+button:active{
+    background-color: #c64335;
+}
+button{
+    margin-left: 43px;
+    margin-top: 42px;
+}
+.button{
+    margin-left: 43px;
+    margin-top: 42px;
+}
+.text-butt{
+    font-size: 35px;
+    margin: 0;
+    color: white;
+}
+.box{
+    transform: scale(2.0);
+}
+.cbox{
+    display: block;
+    margin-top: -65px;
+    margin-left: 306px;
+    position: absolute;
+}
+.label{
+    margin-left: 20px
+}
+.link{
+    margin-top: 33px;
+    margin-left: 30px;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+::placeholder{
+    font-size: 27px;
+    padding-left: 20px;
+}
+input{
+    font-size: 26px;
+}
+.input-thre i{
+    position: absolute;
+    margin-left: 370px;
+}
+p, a, label{
+    font-family: Arial, Helvetica, sans-serif;
+}
